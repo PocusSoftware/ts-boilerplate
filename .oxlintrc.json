@@ -1,0 +1,29 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["typescript", "oxc"],
+  "categories": {
+    "correctness": "error",
+    "suspicious": "error",
+    "perf": "error",
+    "style": "warn"
+  },
+  "ignorePatterns": ["dist/**", "node_modules/**"],
+  "env": {
+    "builtin": true,
+    "es2026": true
+  },
+  "rules": {
+    "eqeqeq": "error",
+    "no-console": "off",
+    "new-cap": "off",
+    "no-magic-numbers": "off",
+    "sort-keys": "off",
+    "one-var": "off",
+    "no-ternary": "off",
+    "no-continue": "off",
+    "curly": "off",
+    "typescript/no-explicit-any": "error",
+    "typescript/no-non-null-assertion": "warn",
+    "typescript/consistent-type-imports": "error"
+  }
+}

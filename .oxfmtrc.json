@@ -1,0 +1,9 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "experimentalOperatorPosition": "start",
+  "printWidth": 80,
+  "singleQuote": true,
+  "sortImports": {
+    "newlinesBetween": false
+  }
+}

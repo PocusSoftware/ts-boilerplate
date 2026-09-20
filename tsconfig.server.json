@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["@citizenfx/server"]
+  },
+  "include": ["src/server/**/*.ts", "src/shared/**/*.ts"]
+}

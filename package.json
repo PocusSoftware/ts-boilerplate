@@ -1,0 +1,25 @@
+{
+  "name": "ts-boilerplate",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun run scripts/build.ts",
+    "watch": "bun --watch run scripts/build.ts",
+    "lint": "oxlint .",
+    "lint:fix": "oxlint . --fix",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "typecheck": "tsc --noEmit -p tsconfig.client.json && tsc --noEmit -p tsconfig.server.json && tsc --noEmit -p tsconfig.scripts.json",
+    "check": "bun run lint && bun run fmt:check && bun run typecheck"
+  },
+  "devDependencies": {
+    "@citizenfx/client": "^2.0.35805-1",
+    "@citizenfx/server": "^2.0.35805-1",
+    "@types/bun": "^1.4.2",
+    "@types/node": "26.3.0",
+    "oxfmt": "^0.68.0",
+    "oxlint": "^1.83.0",
+    "typescript": "^7.0.2"
+  }
+}
