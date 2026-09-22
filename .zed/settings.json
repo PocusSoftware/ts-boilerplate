@@ -14,6 +14,19 @@
           "command": "bunx",
           "arguments": ["oxfmt", "--stdin-filepath", "{buffer_path}"]
         }
+      },
+      "language_servers": [
+        "typescript-ls",
+        "!vtsls",
+        "!typescript-language-server",
+        "..."
+      ]
+    }
+  },
+  "lsp": {
+    "typescript-ls": {
+      "settings": {
+        "package_version": "7.0.2"
       }
     }
   }

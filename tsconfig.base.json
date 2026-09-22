@@ -10,6 +10,7 @@
     "verbatimModuleSyntax": true,
     "skipLibCheck": true,
     "noEmit": true,
+    "composite": true,
 
     "strict": true,
     "noUncheckedIndexedAccess": true,
@@ -18,8 +19,6 @@
     "noFallthroughCasesInSwitch": true,
     "noPropertyAccessFromIndexSignature": true,
     "exactOptionalPropertyTypes": true,
-    "useUnknownInCatchVariables": true,
-    "forceConsistentCasingInFileNames": true,
     "allowUnusedLabels": false,
     "allowUnreachableCode": false,
     "noUnusedLocals": true,

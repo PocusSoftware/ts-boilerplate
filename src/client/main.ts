@@ -9,6 +9,6 @@ RegisterCommand(
   false,
 );
 
-onNet(EVENTS.greet, (payload: GreetEventPayload) => {
+onNet(EVENTS.greeted, (payload: GreetEventPayload) => {
   console.log(payload.message);
 });

@@ -6,4 +6,5 @@ export interface GreetEventPayload {
 
 export const EVENTS = {
   greet: `${RESOURCE_NAME}:greet`,
+  greeted: `${RESOURCE_NAME}:greeted`,
 } as const;
